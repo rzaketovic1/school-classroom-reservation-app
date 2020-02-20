@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Osoblje</title>
+    <link rel="stylesheet" type="text/css" href="osoblje.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body >
+
+  
+<div id="header">
+   
+    <div id="logo">
+            <img src="logo.png" alt="wt">
+    </div> 
+    <div id="meni">
+            <a href="pocetna.html">Početna</a>
+            <a href="sale.html">Sale</a>
+            <a href="unos.html">Unos</a>
+            <a href="rezervacija.html">Rezervacije</a>
+            <a class="active" href="#osoblje">Osoblje</a>
+    </div>
+</div>
+
+<div id="sadrzaj">
+    <table id="tabelaOsoblja">
+            <tr>
+                <th>Osoba</th>
+                <th>Sala</th>
+            </tr>
+       
+           
+                
+    </table>
+</div>
+
+<script src="pozivi.js"></script>
+<script>
+  
+    setInterval("Pozivi.ucitajZauzecaOsoblja()",30000);
+  
+
+    Pozivi.ucitajZauzecaOsoblja();
+   
+  
+</script>
+
+</body>
+</html>

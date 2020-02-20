@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Rezervacija</title>
+    <link rel="stylesheet" type="text/css" href="rezervacija.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    
+
+</head>
+<body>
+      <!--  <script src="kalendar.js"></script>
+        <script type="text/javascript" src="rezervacija.js"></script> -->
+<div id="header">
+   <div id="logo">
+        <img src="logo.png" alt="wt">
+    </div> 
+    <div id="meni">
+            <a href="pocetna.html">Početna</a>
+            <a href="sale.html">Sale</a>
+            <a href="unos.html">Unos</a>
+            <a class="active" href="#rezervacije">Rezervacije</a>
+            <a href="osoblje.html">Osobe</a>
+    </div>
+</div>
+
+<div id="sadrzaj">
+        <div class="dropdown">
+                <div class="listandcheck">   
+                        <select id="osoblje" onChange="oboji()">
+                                
+                                <!--<option value="Osoblje">Asis. Ramiz Zaketović</option>-->
+                         </select>
+                        <select id="sale" onChange="oboji()">
+                               <!-- <option value="0-01">0-01</option>
+                                <option value="0-02">0-02</option>
+                                <option value="1-11">1-11</option>
+                                <option value="1-15">1-15</option>
+                                <option value="VA1">VA1</option>
+                                <option value="VA2">VA2</option>-->
+                         </select>
+                <label class="periodicna">Periodicna
+                <input type="checkbox" id="checkbox"> 
+                </label>
+            </div>
+                
+               <div class="vrijeme">
+                        <label>Pocetak</label> <input type="time" name="pocetak" id="pocetak" onChange="oboji()"><br>
+                        <label>Kraj</label> <input type="time" name="kraj" id="kraj" onChange="oboji()">
+                </div>
+        </div>
+        <div>
+        <div id="calendar"> 
+                    
+                 <div id="month">      
+                         
+                </div>
+                 <ul class="weekdays">
+                        <li>Pon</li>
+                        <li>Uto</li>
+                        <li>Sri</li>
+                        <li>Čet</li>
+                        <li>Pet</li>
+                        <li>Sub</li>
+                        <li>Ned</li>
+                </ul>
+                   
+                 <ul id="days"><!-- class zauzeta , class slobodna, class empty--> 
+                <!--       <li class="empty"></li>  
+                        <li class="empty"></li>
+                        <li class="empty"></li>
+                        <li class="empty"></li>
+                        <li>1<div class="slobodna"> </div></li>
+                        <li>2<div class="slobodna"></div></li>
+                        <li>3<div class="slobodna"></div></li>
+                        <li>4<div class="slobodna"></div></li>
+                        <li>5<div class="slobodna"></div> </li>
+                        <li>6<div class="slobodna"></div></li>
+                        <li>7<div class="slobodna"></div></li>
+                        <li>8<div class="slobodna"></div> </li>
+                        <li>9<div class="slobodna"></div></li>
+                        <li>10<div class="slobodna"></div></li>
+                        <li>11<div class="slobodna"></div></li>
+                        <li>12<div class="slobodna"></div></li>
+                        <li>13<div class="slobodna"></div></li>
+                        <li>14<div class="slobodna"></div></li>
+                        <li>15 <div class="slobodna"></div></li>
+                        <li>16<div class="slobodna"></div></li>
+                        <li>17<div class="slobodna"></div></li>
+                        <li>18<div class="slobodna"></div></li>
+                        <li>19<div class="slobodna"></div></li>
+                        <li>20<div class="slobodna"></div></li>
+                        <li>21<div class="slobodna"></div></li>
+                        <li>22 <div class="slobodna"></div></li>
+                        <li>23<div class="slobodna"></div></li>
+                        <li>24<div class="slobodna"></div></li>
+                        <li>25<div class="slobodna"></div></li>
+                        <li>26<div class="slobodna"></div></li>
+                        <li>27<div class="slobodna"></div></li>
+                        <li>28<div class="slobodna"></div></li>
+                        <li>29 <div class="slobodna"></div></li>
+                        <li>30<div class="slobodna"></div></li>
+                        <li class="empty"></li>
+                        --> 
+                </ul>
+        
+                      
+        
+        </div>
+        </div>
+        <div class="buttoni">
+        <input type="submit" id="prethodni" value="Prethodni" name="prethodni" onclick="previous()">
+        <input type="submit" id="sljedeci" value="Sljedeći" name="sljedeci" onclick="next()">
+        </div>
+</div>
+
+<script src="kalendar.js"></script>
+<script src="pozivi.js"></script>
+<script type="text/javascript" src="rezervacija.js"></script> 
+</body>
+</html>
+

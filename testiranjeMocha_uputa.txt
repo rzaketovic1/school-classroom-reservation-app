@@ -1,0 +1,3 @@
+Zbog inicijalizacije podataka baze na serveru, testiranje pozvati sa: npm test -- --delay
+
+kancelarija je zadužena sala

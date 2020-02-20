@@ -1,0 +1,102 @@
+{
+	"periodicna": [
+		{
+			"dan": "1",
+			"semestar": "zimski",
+			"pocetak": "08:00",
+			"kraj": "09:30",
+			"naziv": "0-01",
+			"predavac": "Default"
+		},
+		{
+			"dan": "1",
+			"semestar": "zimski",
+			"pocetak": "02:02",
+			"kraj": "03:03",
+			"naziv": "VA2",
+			"predavac": "DefaultPeriodcino"
+		},
+		{
+			"dan": "3",
+			"semestar": "ljetni",
+			"pocetak": "04:00",
+			"kraj": "05:05",
+			"naziv": "VA3",
+			"predavac": "DefaultPeriodcino"
+		},
+		{
+			"dan": "3",
+			"semestar": "ljetni",
+			"pocetak": "02:02",
+			"kraj": "08:04",
+			"naziv": "0-01",
+			"predavac": "DefaultPeriodcino"
+		},
+		{
+			"dan": "4",
+			"semestar": "zimski",
+			"pocetak": "11:00",
+			"kraj": "13:00",
+			"naziv": "0-01",
+			"predavac": "DefaultPeriodcino"
+		}
+	],
+	"vanredna": [
+		{
+			"datum": "19:11:2019",
+			"pocetak": "03:03",
+			"kraj": "04:04",
+			"naziv": "VA3",
+			"predavac": "Default"
+		},
+		{
+			"datum": "01:10:2019",
+			"pocetak": "02:02",
+			"kraj": "03:03",
+			"naziv": "0-01",
+			"predavac": "DefaultVanredno"
+		},
+		{
+			"datum": "01:11:2019",
+			"pocetak": "02:02",
+			"kraj": "08:04",
+			"naziv": "0-01",
+			"predavac": "DefaultVanredno"
+		},
+		{
+			"datum": "29:12:2019",
+			"pocetak": "08:00",
+			"kraj": "09:00",
+			"naziv": "VA3",
+			"predavac": "DefaultVanredno"
+		},
+		{
+			"datum": "15:12:2019",
+			"pocetak": "08:03",
+			"kraj": "09:04",
+			"naziv": "VA3",
+			"predavac": "Default"
+		},
+		{
+			"datum": "02:12:2019",
+			"pocetak": "11:00",
+			"kraj": "13:00",
+			"naziv": "0-01",
+			"predavac": "DefaultVanredno"
+		},
+		{
+			"datum": "16:12:2019",
+			"pocetak": "11:00",
+			"kraj": "13:00",
+			"naziv": "0-01",
+			"predavac": "DefaultVanredno"
+		},
+		{
+			"datum": "08:01:2019",
+			"pocetak": "02:02",
+			"kraj": "15:03",
+			"naziv": "1-11",
+			"predavac": "DefaultVanredno"
+		}
+	]
+}

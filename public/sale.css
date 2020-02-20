@@ -1,0 +1,169 @@
+#header {
+
+  position: relative;
+  top: 43px;
+  height: 90px;
+  background: #333;
+  
+  }
+
+body {
+    background-image:url(pozadina.jpg);
+    min-width: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+#meni{
+  float: left;
+  margin-top: 55px;
+}
+
+#logo{
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ #meni a {
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 45px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+
+#meni a:hover {
+    color: 	#1E90FF;
+  }
+  
+#meni a.active {
+     color: #1E90FF;
+  }
+
+
+
+ 
+
+#sadrzaj{
+    padding: 50px;
+    position: relative; 
+    
+    margin-top: 43px;  
+   }
+ 
+
+#tabelaSala{
+   margin-top: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   border-collapse: collapse;
+   text-align:center;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ 
+ }
+
+.invisible{
+  border:none;
+  }
+
+  #tabelaSala tbody, td{
+    border: 2px solid 	#F5F5F5;
+    border-collapse: separate;
+    padding: 8px;
+    }
+
+.headerSprat {
+  background-color:#1E90FF;
+  color: white;
+  
+
+  }
+
+ 
+.headerRedni{
+  background-color:#4682B4;
+  color: white;
+ 
+ }
+
+.sala.slobodnaSala{
+  background-color: 	#32CD32;
+} 
+
+.sala.zauzetaSala{
+  background-color:#CD5C5C;
+}
+
+.sala.kancelarija{
+  background-color: 	#A9A9A9;
+}
+
+.sala{
+  color:	#0000CD;
+  background-color: 	#DCDCDC;
+}
+  
+@media only screen and (max-width: 599px) {
+
+  #header{
+    height: 180px;
+  }
+  
+  #meni{
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  #meni a {
+    float: none;
+    color: #f2f2f2;
+    font-size: 20px;
+     
+  }
+ 
+
+  .headerSprat{
+    
+    visibility: hidden;
+    border-left:hidden;
+    border-top:hidden;
+    border-right: hidden;
+  }
+
+  .headerRedni{
+    visibility: hidden;
+    border-top: hidden;
+    border-left: hidden;
+    border-bottom: hidden;
+  }
+   
+#tabelaSala{
+  margin-top:1px;
+}
+
+  #tabelaSala tbody, td{
+     padding: 7px;
+  }
+
+
+
+  #sadrzaj{
+    padding: 10px;
+  }
+
+}
+
+  
+
+ 
