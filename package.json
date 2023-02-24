@@ -22,7 +22,7 @@
     "nodemon": "^2.0.2",
     "read-chunk": "^3.2.0",
     "reload": "^3.0.3",
-    "sequelize": "^5.21.3",
+    "sequelize": "^6.29.0",
     "should": "^13.2.3",
     "window-load": "^1.0.0"
   },
