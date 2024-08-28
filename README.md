@@ -1,0 +1,1 @@
+This is a school project I completed for a Web Technology course at university. The goal of the course was to develop skills in HTML, CSS, and JavaScript, and I built the application using a Node.js server.
